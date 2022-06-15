@@ -1,0 +1,145 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/173357.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 4rem;
+  }
+  
+  #title{
+    text-align: center;
+    color: #FFD700;
+    padding-top: 10px;
+    font-size: 30px;
+  }
+  
+  #description{
+      text-align: center;
+    color: #FFD700;
+    font-size: 17px;
+    font-family: arial;
+    padding-bottom: 20px;
+  }
+  
+  #survey-form{
+    font-family: arial;
+    background-color: #FFD700;
+    margin: auto;
+    width: 36%;
+    border-radius: 20px;
+    padding: 30px 10px;
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 2px 5px 10px #FFD700;
+  }
+  
+  .form-container{
+    width: 90%;
+      display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  label{
+    color: #8B0000;
+    font-weight: bold;
+    padding-bottom: 4px;
+  }
+  
+  input{
+    padding-left: 4px;
+    margin-bottom: 1.4rem;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 4px;
+  }
+  
+  #dropdown{
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 4px;
+     margin-bottom: 1.4rem;
+  }
+  
+  #radio{
+    color: #8B0000;
+    font-weight: bold;
+    font-size: 15.4px;
+    padding-bottom: 1px;
+  }
+  
+  #yes{
+      padding-left: 4px;
+      margin-top: 6px;
+      margin-bottom: 8px;
+  }
+  
+  #no{
+      padding-left: 4px;
+      margin-bottom: 8px;
+  }
+  
+  #check{
+    color: #8B0000;
+    font-weight: bold;
+    font-size: 15.4px;
+    padding-left: 2.5px;
+    padding-bottom: 1px;
+  }
+  
+  #armada{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 12px;
+  }
+  
+  #defenders{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 12px;
+  }
+  #brigade{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 12px;
+  }
+  
+  #rwolves{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 12px;
+  }
+  
+  #president{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 12px;
+  }
+  #none{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 21px;
+  }
+  
+  #textcomment{
+    border-radius: 5px;
+      font-family: arial;
+    padding-left: 4px;
+  }
+  
+  #submit{
+    color: #FFD700;
+    background-color: #8B0000;
+    border-color: #8B0000;
+    padding: 7px 1px;
+    font-size: 15px;
+    font-weight:bold;
+    margin-top: 1rem;
+  }
+  
+  textarea{
+     font-family: arial;
+    padding-left: 4px;
+    padding-top: 4px;
+  }

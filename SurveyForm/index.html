@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ken's Survey Form</title>
+</head>
+<main>
+    <div>
+      <h1 id="title">Washington Commanders Survey Form</h1>
+    </div>
+    <p id="description">
+      <em>Thank you for taking the time to help us improve our brand!</em>
+    </p>
+    <form id="survey-form">
+      <div class ="form-container">
+        <label for ="name" id="name-label">Name</label>
+        <input type="text" required placeholder="Enter your name" id="name"></input>
+        <label for ="email" id="email-label">Email</label>
+        <input type="email" required placeholder="Enter your email" id="email"></input>
+    <label for ="number" id="number-label">Age <small>(optional)</small></label>
+        <input type="number" placeholder="Age" id="number" min="0" max="100"></input>
+    <label for ="status">Which option best describes your fan status?</label>
+    <select id="dropdown">
+      <option>Select your status</option>
+      <option>Washington Footoball Fan</option>
+      <option>NFL Fan (Other team)</option>  
+      <option>Prefer Not to Say</option>
+        <option>Other</option>
+    </select>
+  
+      <label>Do you like the new "Commanders" name?</label>
+    <div>    
+      <input id ="yes" type="radio" name="likes" value="yesradio">
+      <label id ="radio">Yes, Definitely</label><br>
+      <input id ="no" type="radio" name="likes" value="noradio">
+      <label id ="radio">No, Not the One</label><br>
+      <input id ="unknown" type="radio" name="likes" value="unkradio">
+      <label id ="radio">Indifferent</label>
+    </div>
+  <label>Do you like any of the following names? <small>(check all that apply)</small></label>
+  <div>
+    <input id="armada" value="armada" type="checkbox"><label id="check" for ="armada">Armada</label><br>
+   <input id="defenders" value ="defenders" type="checkbox"><label id="check" for="defenders">Defenders</label><br>
+    <input id= "brigade" value="brigade" type="checkbox"><label id="check">Brigade</label><br>
+    <input id= "rwolves" value="rwolves" type="checkbox"><label id="check">Red Wolves</label><br>
+    <input id= "president" value="president" type="checkbox"><label id="check">Presidents</label><br>
+    <input id= "none" value="none" type="checkbox"><label id="check">None of the Above</label>
+  </div>
+  <label>Any comments or suggestions?</label>
+  <textarea placeholder="Enter your comment here..." rows="6"></textarea>
+  <input type ="submit" id="submit">
+  </form>
+  </main>
+  </html>
