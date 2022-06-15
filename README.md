@@ -4,6 +4,8 @@ freeCodeCamp's Certification Projects for Responsive Web Design
 
 # A Tribute Page
 
+<img src="/images/colin_powell.jpg">
+
 # A Survey Form
 
 Pending code development...
