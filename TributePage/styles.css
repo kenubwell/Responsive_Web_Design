@@ -1,0 +1,82 @@
+header{
+    font-family: times;
+    background-color: #DCDCDC;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px 0px;
+     box-shadow: 4px 5px 10px #191970;
+  }
+  
+  #img-div{
+    margin: auto;
+    width: 45%;
+    height: 80%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  img{
+    max-width: 100%;
+  }
+  
+  #image{
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+  
+  #img-caption{
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  
+  #tribute-info{
+    background-color: #DCDCDC;
+    padding: 20px 0px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 10px #191970;
+    margin-bottom: 2rem;
+  }
+  
+  #tribute-title{
+    font-size: 18.5px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  ul{
+  
+    display: table;
+    margin: auto;
+    list-style-type: none;
+  }
+  
+  li{
+    padding-bottom: 1.8rem;
+    font-size: 17.5px;
+  }
+  
+  #quote{
+    width: 30%;
+    margin: auto;
+    font-size: 17px;
+    padding-top: 10px;
+  }
+  
+  #person-quote{
+    margin: auto;
+    width: 30%;
+    padding-top: 20px;
+  }
+  
+  #wikipedia{
+    width: 40%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 16.5px;
+  }
